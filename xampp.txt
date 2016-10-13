@@ -1,0 +1,25 @@
+配置多站点
+1 	下载XAMPP
+2	打开  C:\Windows\System32\drivers\etc 的hosts
+	添加 127.0.0.1  www.try-test.com (你想要的域名)（名字取的特别一点）
+3	找到xammp目录下的（xampp\apache\conf\extra） httpd-vhosts.conf 用记事本打开
+在文件最后添加
+<VirtualHost *:80>
+DocumentRoot E:/wtf/www/    （你的本地文件夹目录）
+ServerName www.try-test.com （步骤二中设置的你想要的域名）
+</VirtualHost>
+重启apache 再就可以访问www.try-test.com
+4  这样你就可以访问 www.try-test.com 
+5 	为了让localhost继续生效  再在httpd-vhosts.conf 最后添加
+<VirtualHost *:80>
+DocumentRoot E:/software/xampp/htdocs/（你安装的xampp 的htdocs目录）
+ServerName localhost
+</VirtualHost>
+重启apache 就可以继续localhost访问 默认的页面
+6 为了让新增的站点不再默认的文件夹下
+	需要找到xampp下的（xampp\apache\conf）httpd.conf 文件
+	定位到     DocumentRoot "E:/software/xampp/htdocs"
+<Directory "E:/software/xampp/htdocs">
+	替换 你需要的目录
+至上完成http://jingyan.baidu.com/article/ad310e80d537ee1849f49e0d.html
+
