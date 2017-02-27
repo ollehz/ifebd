@@ -1,1 +1,198 @@
-
+*{ 
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/1.5 'Microsoft YaHei';
+	background-color: #fff;
+}
+ul li {
+	list-style-type: none;
+}
+header.top {
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+}
+header.top img {
+	margin: 5px 0 0 15px;
+}
+h1.top-title {
+	float: left;
+	font-size: 0;
+}
+.top-link {
+	float: right;
+}
+.top-link ul li {
+	float: left;
+	margin-right: 8px;
+	width: 85px;
+}
+.top-link ul li a {
+	line-height: 60px;
+	color: #fff;
+}
+.top-link ul li.active a{
+	color: #ABA29B;
+}
+.content { 
+	padding: 22px;
+	font-size: 14px;
+	background-color: #dedede;
+}
+.content article,.content section,.content aside{
+	background-color: #fff;
+	padding: 20px 40px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px #828282;
+}
+.content article {
+	padding: 20px 40px;
+}
+.content article h2 {
+	font-size: 20px;
+}
+.content article h3 {
+	color: #676769;
+	margin-top: 12px;
+	font-size: 15px;
+}
+.content .article-author {
+	margin: 8px 0 14px 0;
+	font-size: 12px;
+}
+.content article .paimg {
+	margin: 20px 0 15px;
+}
+.fir-list {
+	padding-left: 20px;
+}
+.pic-txt figure {
+	width: 130px;
+	height: 130px;
+	border: 1px solid #cecece;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.pic-txt figure figcaption {
+	margin: 5px 0 8px 0;
+}
+.pic-txt figure img {
+	display: block;
+	width: 100px;
+	height: 82px;
+	margin: 0 auto;
+}
+.list-sec {
+	margin-left: 45px;
+}
+table {
+	width: 100%;
+	border: none;
+	border-collapse:collapse; 
+	border-spacing:0;
+} 
+table th, table td {
+	border: 1px solid #cecece;
+}
+table th {
+	background-color: #333;
+	color: #fff;
+}
+table tr.total {
+	background-color: #ccc;
+}
+table td {
+	padding: 4px;
+}
+.asidebar-tit {
+	height: 42px;
+	line-height: 42px;
+	border-left: 2px solid #cecece;
+	padding-left: 16px;
+}
+.aside-content {
+	width: 60%;
+	margin: 14px auto 0;
+}
+.aside-content label {
+	display: inline-block;
+	width: 120px;
+	margin-right: 15px;
+	text-align: right;
+}
+.aside-content input {
+	line-height:20px;
+}
+.info {
+	text-indent: 140px;
+	margin: 10px 0 20px 0;
+	color: #E0E4D4;
+}
+aside p {
+	margin-bottom: 10px;
+}
+.sex-choice{ 
+	vertical-align: top;	
+}
+.sex-choice .sex-sort {
+	vertical-align: top;
+}
+.label {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	margin-right: 15px;
+}
+.sex-choice label.sex {
+	width: 16px;
+	vertical-align: top;
+}
+.sex-choice input {
+	margin-top: 2px;
+}
+.hobby {
+	margin-top: 10px;
+	vertical-align: top;
+}
+.hobby-box {
+	vertical-align: text-bottom;
+	margin-bottom: 2px;
+}
+.per-des {
+	float: right;
+}
+.per-des-wrap {
+	margin-top: 10px;
+}
+.submit-btn {
+	margin-top: 10px;
+	border: none;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	background: #3355D0;
+}
+footer {
+	height: 76px;
+	line-height: 76px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+.clearfix:after,.clearfix:before {
+	display: table;
+	content: '';
+	line-height: 0;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
