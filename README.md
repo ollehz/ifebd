@@ -11,5 +11,5 @@ ife学习
 <h2>2017_ife</h2>
   <ul>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task01.html" target="_blank">xw_01</a></li>
-    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task02/task_02.html" target="_blank">xw_01</a></li>
+    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task02/task_02.html" target="_blank">xw_02</a></li>
   </ul>
