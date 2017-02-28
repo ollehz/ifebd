@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局</title>
+	<style>
+	 *{margin: 0;padding: 0;}
+	 div {height: 160px;}
+	.wrap {margin: 50px 0;height: 160px;}
+	.left {background-color: #cccccc;width: 200px;}
+	.right {background-color: #dedede;width: 120px;}
+	.main {background-color: #f00;}
 
+	/*one    浮动*/
+	#one .left {float: left;}
+	#one .right {float: right;}
+	#one .main {margin-left: 220px;margin-right: 140px;}
+	/*two    定位*/
+	#two {position: relative;}
+	#two .left,#two .right {position: absolute;top: 0;height: 100%;}
+	#two .left {left: 0;}
+	#two .right {right: 0;}
+	#two .main {margin: 0 140px 0 220px;height: 100%;}
+	/*three  flex*/
+	#three {display: flex;}
+	#three .main {flex-grow: 1;}
+	#three .left {order: -1;flex: 0 1 200px;margin-right: 20px;}
+	#three .right {flex: 0 1 120px;margin-left: 20px;}
+	/*four     bfc*/
+	#four {}
+	#four .left {float: left;margin-right: 20px;}
+	#four .right {float: right;margin-left: 20px;}
+	#four .main {overflow: hidden;}
+	/*five    双飞翼布局*/
+	#five .content {float: left;width: 100%;}
+	#five .main {margin-left: 220px;margin-right: 140px;}
+	#five .left {float: left;margin-left: -100%;}
+	#five .right {float: left;margin-left: -120px;}
+	/*six     圣杯布局*/
+	#six .wrap {width: auto;}
+	#six {margin-left: 220px;margin-right: 140px;position: relative;}
+	#six .main {float: left;width: 100%;height: 100%;}
+	#six .left {float: left;margin-left: -100%;position: relative;left: -220px;height: 100%;} 
+	#six .right {float: left;margin-left: -120px;position: relative;right: -140px;height: 100%;}
+	</style>
+</head>
+<body>
+	<!--浮动-->
+	<div class="wrap" id="one">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="main">浮动</div>
+	</div>
+
+	<!--绝对定位-->
+	<div class="wrap" id="two">
+		<div class="left"></div>
+		<div class="main">定位</div>
+		<div class="right"></div>
+	</div>
+
+	<!--flex布局-->
+	<div class="wrap" id="three">
+		<div class="main">flex</div>
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+
+	<!--BFC布局-->
+	<div class="wrap" id="four">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="main">bfc</div>
+	</div>
+
+	<!--双飞翼布局-->
+	<div class="wrap" id="five">
+		<div class="content">
+			<div class="main">双飞翼</div>
+		</div>
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+	<!--圣杯布局-->
+	<div class="wrap" id="six">
+		<div class="main">圣杯布局</div>
+		<div class="left"></div>
+		<div class="right"></div>	
+	</div>
+</body>
+</html>
