@@ -13,5 +13,8 @@ ife学习
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task01.html" target="_blank">xw_01</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task02/task_02.html" target="_blank">xw_02</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task03/task_03.html" target="_blank">xw_03 三栏布局</a></li>
-    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task04/task_04.html" target="_blank">xw_04 定位和居中</a></li>
+    <li>
+    <a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task04/task_04.html" target="_blank">xw_04 定位和居中</a>
+    <a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task04/flex_task04.html" target="_blank">xw_04 flex定位和居中</a>
+    </li>
   </ul>
