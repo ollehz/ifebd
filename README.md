@@ -10,6 +10,7 @@ ife学习
  
 <h2>2017_ife</h2>
   <ul>
+  <li>小薇学院</li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task01.html" target="_blank">xw_01</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task02/task_02.html" target="_blank">xw_02</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task03/task_03.html" target="_blank">xw_03 三栏布局</a></li>
@@ -18,4 +19,5 @@ ife学习
     <a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task04/flex_task04.html" target="_blank">xw_04 flex定位和居中</a>
     </li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task05/task_05.html" target="_blank">xw_05</a></li>
+    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task06/task_06.html" target="_blank">xw_06</a></li>
   </ul>
