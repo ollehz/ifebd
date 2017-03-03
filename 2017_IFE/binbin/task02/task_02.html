@@ -11,8 +11,6 @@
 	</ul>
 
 	<script type="text/javascript">
-	var m = 1;
-	var EnNum = [];
 		var aqiData = [
 			["北京", 90],
 			["上海", 50],
@@ -25,6 +23,9 @@
 		];
 		var chNum = ['一','二','三','四','五','六','七','八','九','十'];
 		(function(){
+			var m = 1;
+			var EnNum = [];
+			var li = '';
 			var lists = document.getElementById('aqi-list');
 			var niceLists = [];
 			for (var i = 0; i<aqiData.length; i++){
@@ -44,12 +45,13 @@
 				console.log(EnNum);
 				if( EnNum[k] == EnNum[k-1]){
 					console.log('ok');
-					document.write("<li>第" + chNum[k-1] + "名: " + niceLists[j]  + "</li>");
+					li += "<li>第" + chNum[k-1] + "名: " + niceLists[j][0] + ', ' + niceLists[j][1]  + "</li>";
 					k+=1;
 				}else {
-					document.write("<li>第" + chNum[k] + "名: " + niceLists[j]  + "</li>");
+					li += "<li>第" + chNum[k] + "名: " + niceLists[j][0] + ', '  + niceLists[j][1]  + "</li>";
 					k+=1;
 				}
+				lists.innerHTML = li;
 				
 			};
 			
