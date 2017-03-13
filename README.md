@@ -27,5 +27,5 @@ ife学习
     <li>斌斌学院_js</li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task01/task_01.html" target="_blank">bb_js_01</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task02/task_02.html" target="_blank">bb_js_02</a></li>
-    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task02/task_03.html" target="_blank">bb_js_03</a></li>
+    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task03/task_js03.html" target="_blank">bb_js_03</a></li>
   </ul>
