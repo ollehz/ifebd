@@ -21,6 +21,7 @@ ife学习
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task05/task_05.html" target="_blank">xw_05</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task06/task_06.html" target="_blank">xw_06</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task_07/task_07.html" target="_blank">xw_07</a></li>
+    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/xiaowei/task08/task_08.html" target="_blank">xw_08</a></li>
   </ul>
   <ul>
     <li>斌斌学院_js</li>
