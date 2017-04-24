@@ -1,0 +1,96 @@
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, pre, blockquote, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea {
+	margin: 0; padding: 0;
+}
+html {
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+	display: block;
+}
+table {
+	border-collapse: collapse; /*是否把表格边框合并为单一的边框*/
+	border-spacing: 0;  /*设置相邻单元格的边框间距离*/
+}
+caption, th{
+	font-weight: normal;
+}
+html, body, fieldset, iframe, abbr {
+	border: none;
+}
+i, cite, em, var, address, dfn {
+	font-style: normal;
+}
+[hidefoucs], summary {
+	outline: none;
+}
+ul, ol, li, ul li, ol li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6, small {
+	font-size: 100%;
+}
+textarea {
+	overflow: hidden;
+	resize: none;
+}
+label, summary {
+	cursor: default;
+}
+a, button {
+	cursor: pointer;
+}
+h1, h2, h3, h4, h5 ,h6, em, strong, b {
+	font-weight: normal;
+}
+ins, u, s, a, a:hover {
+	text-decoration: none;
+}
+body,textarea,input,button,select,keygen,legend {
+	/*font: 12px/1.5 arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑","宋体",Tahoma,Helvetica,STHeiti;*/
+	
+	font:12px "Microsoft Yahei","微软雅黑",Helvetica,Arial,sans-serif;
+	line-height: 1.62;
+	outline: none;
+}
+body{
+	background-color: #fff;
+}
+a:foucs {
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+a { 
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	overflow: hidden;
+	border: none;
+	display: block;
+}
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	outline: 0 none;
+	vertical-align: baseline;
+	_overflow: visible;
+	*overflow: visible; 
+	*vertical-align: middle;
+	border: none;
+}
+.clearfix:after,.clearfix:before {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
