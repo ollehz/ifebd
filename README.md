@@ -31,4 +31,5 @@ ife学习
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task02/task_02.html" target="_blank">bb_js_02</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task03/task_js03.html" target="_blank">bb_js_03</a></li>
     <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task04/index_js04.html" target="_blank">bb_js_04</a></li>
+    <li><a href="http://ollehz.github.io/ifebd/2017_IFE/binbin/task05/task_js05.html" target="_blank">bb_js_05</a></li>
   </ul>
