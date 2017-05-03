@@ -96,7 +96,7 @@
 		var e = event || window.event;
 		source = e.target || e.srcElement;
 		if(source.nodeName.toLowerCase() == 'li'){
-			alert(e.)
+			//alert(e.)
 			$('numList').removeChild(e.target);
 			e.stopPropagation();
 		}
